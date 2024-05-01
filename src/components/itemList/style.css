@@ -1,0 +1,26 @@
+.item-list strong{
+  color: #549BF5;
+  font-size: 24px;
+  margin: 24px 0
+}
+.item-list p{
+  color: #999999;
+  font-size: 12;
+  margin: 24px 0;
+}
+.repositorio{
+  font-size: 32px;
+  color: white;
+  margin: 12px 0;
+  text-align: center;
+}
+.item-list strong::before{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../assets/repositore.png');
+  margin-right: 10px;
+}
