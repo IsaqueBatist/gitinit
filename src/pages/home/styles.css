@@ -1,0 +1,39 @@
+.conteudo{
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.background{
+  height: 100vh;
+  position: absolute;
+  left: 0;
+}
+.info{
+  width: 60%;
+  margin: 40px 90px 0 0;
+  color: white;
+}
+
+input{
+  border: 1px solid #999999;
+  border-radius: 22px;
+  min-width: 250px;
+  width: 50%;
+  margin-right: 12px;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+}
+button{
+  border: 1px solid #999999;
+  color: white;
+  border-radius: 22px;
+  min-width: 230px;
+  margin-right: 12px;
+  background:rgba(45, 51, 59, 1);
+  font-size: 18px;
+  padding: 10px;
+}
