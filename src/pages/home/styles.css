@@ -21,7 +21,7 @@ input{
   border: 1px solid #999999;
   border-radius: 22px;
   min-width: 250px;
-  width: 50%;
+  width: 85%;
   margin-right: 12px;
   background: transparent;
   font-size: 18px;
@@ -31,9 +31,38 @@ button{
   border: 1px solid #999999;
   color: white;
   border-radius: 22px;
-  min-width: 230px;
   margin-right: 12px;
   background:rgba(45, 51, 59, 1);
   font-size: 18px;
   padding: 10px;
 }
+
+.perfil{ 
+  display: flex;
+  margin-top: 40px;
+}
+.perfil h3{
+  color: #999999;
+  font-size: 24px;
+  margin: 0;
+}
+.perfil span{
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+.perfil p{
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 20px;
+}
+.profile{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+  margin-right: 32px;
+}
+
